@@ -20,7 +20,7 @@ if (process.env.NODE_ENV !== 'production') {
       format: winston.format.combine(
         winston.format.colorize(),
         winston.format.simple()
-      )
+      ),
     })
   );
 }
