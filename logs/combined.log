@@ -33,3 +33,9 @@
 {"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api"}
 {"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///D:/Projects/acquisitions/src/services/auth.service.js:34:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///D:/Projects/acquisitions/src/controllers/auth.controller.js:24:18)"}
 {"level":"info","message":"::1 - - [03/Nov/2025:14:34:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Nov/2025:11:23:33 +0000] \"POST /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Nov/2025:11:25:10 +0000] \"POST /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.49.1"}
+{"level":"info","message":"::1 - - [07/Nov/2025:11:25:11 +0000] \"POST /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
